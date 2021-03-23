@@ -1,12 +1,17 @@
-import { buildQueries } from '@testing-library/dom';
 import PropTypes from 'prop-types';
+import Button from './Button'
 
 const Header = ({title}) => {
+    const onClick = (e) => {
+        console.log("test");
+        console.log(e);
+    };
+
     return (
         <header className="header">
              {/* style={headingStyling} */}
             <h1>{title}</h1>
-            <button className="btn">Add</button>
+            <Button onClick={onClick} color='green' text='Add'></Button>
         </header>
     )
 }
@@ -19,8 +24,8 @@ Header.propTypes = {
     title: PropTypes.string,
 }
 
-const headingStyling = {
-    color: 'blue',
-    backgroundColor: 'yellow'
-}
+// const headingStyling = {
+//     color: 'blue',
+//     backgroundColor: 'yellow'
+// }
 export default Header;
