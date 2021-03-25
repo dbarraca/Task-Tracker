@@ -1,4 +1,4 @@
-#[Task Tracker](https://dbarraca.github.io/Task-Tracker/)
+# [Task Tracker](https://dbarraca.github.io/Task-Tracker/)
 
 ## Available Scripts
 Runs the app in the development mode.
