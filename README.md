@@ -1,6 +1,4 @@
-[Task Tracker] (https://dbarraca.github.io/Task-Tracker/)
-
-
+#[Task Tracker](https://dbarraca.github.io/Task-Tracker/)
 
 ## Available Scripts
 Runs the app in the development mode.
@@ -14,7 +12,7 @@ Run [Json-Server](https://www.npmjs.com/package/json-server) Backend to port 500
 check db.json to see the database. Changes as http calls come in.
 
 Deploys app to githubs. The live link about will be update a minute or so after running.
-### `npm run deply`
+### `npm run deploy`
 
 ---
 
