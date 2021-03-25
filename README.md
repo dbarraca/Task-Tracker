@@ -1,18 +1,22 @@
-# Getting Started with Create React App
+[Task Tracker] (https://dbarraca.github.io/Task-Tracker/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
-
-In the project directory, you can run:
-
+Runs the app in the development mode.
 ### `yarn start`
-
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+
+Run [Json-Server](https://www.npmjs.com/package/json-server) Backend to port 5000
+### `npm run server`
+
+check db.json to see the database. Changes as http calls come in.
+
+Deploys app to githubs. The live link about will be update a minute or so after running.
+### `npm run deply`
+
+---
 
 ### `yarn test`
 
